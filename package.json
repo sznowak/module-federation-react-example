@@ -1,0 +1,14 @@
+{
+  "name": "module-federation-react-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "szymon",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "start": "lerna run start --parallel"
+  }
+}
